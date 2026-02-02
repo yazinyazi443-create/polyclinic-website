@@ -1,0 +1,66 @@
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarePlus Polyclinic</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f7fbff; color:#333; }
+    header { background:#e6f2ff; padding:20px; }
+    nav a { margin:0 15px; text-decoration:none; color:#005fa3; font-weight:bold; }
+    .hero { padding:60px 20px; text-align:center; background:#ffffff; }
+    .section { padding:40px 20px; max-width:1100px; margin:auto; }
+    .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
+    .card { background:white; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+    footer { background:#005fa3; color:white; text-align:center; padding:15px; }
+    input, textarea, button { width:100%; padding:10px; margin-top:10px; }
+    button { background:#005fa3; color:white; border:none; cursor:pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>CarePlus Polyclinic</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Quality Healthcare You Can Trust</h1>
+  <p>Comprehensive medical services under one roof</p>
+</section>
+
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">General Medicine</div>
+    <div class="card">Pediatrics</div>
+    <div class="card">Pharmacy</div>
+    <div class="card">Laboratory Services</div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>CarePlus Polyclinic is committed to providing patient-centered, affordable, and quality healthcare services.</p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 CarePlus Polyclinic. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
